@@ -169,7 +169,7 @@ for _, proj := range *projectsList {
 */
 
 // get all projects for user ID 1337
-queryParams := taiga.Project.QueryParameters{
+queryParams := taiga.ProjectsQueryParameters{
     Member: 1337,
 }
 queryParams.TotalFansLastMonth() // results are ordered by TotalFansLastMonth
